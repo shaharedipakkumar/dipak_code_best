@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Login Page</title>
+    <style>
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url('https://cdn.pixabay.com/photo/2014/11/27/04/35/wolf-547203_640.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    .container {
+        width: 90%;
+        max-width: 400px;
+        padding: 30px 20px;
+        border: 1px solid black;
+        border-radius: 12px;
+        box-shadow: 3px 3px 10px black;
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+
+    h1 {
+        text-align: center;
+        color: darkblue;
+        margin-bottom: 30px;
+    }
+
+    input[type=email],
+    input[type=password],
+    input[type=button] {
+        width: 100%;
+        margin: 10px 0;
+        padding: 10px;
+        box-sizing: border-box;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+    }
+
+    input[type=button] {
+        background-color: blue;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    a {
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+        text-decoration: none;
+        font-size: 18px;
+        color: #333;
+    }
+
+    p {
+        text-align: center;
+        margin: 20px 0 10px;
+    }
+
+    hr {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    @media (max-width: 500px) {
+        h1 {
+            font-size: 24px;
+        }
+
+        input[type=button] {
+            font-size: 16px;
+        }
+
+        a {
+            font-size: 16px;
+        }
+    }
+</style>
+
+</head>
+<body>
+    <div class="container">
+        <h1>FACEBOOK</h1>
+        <div class="box1">
+            <input type="email" name="" id="" placeholder="Email">
+        </div>
+        <div class="box1">
+            <input type="password" name="" id="" placeholder="Password">
+        </div>
+        <div class="box1">
+            <input type="button" value="Log In">
+        </div>
+        <p>or</p>
+        <div class="box1">
+            <input type="button" value="Log in with Facebook">
+        </div>
+        <div class="box1">
+            <a href="#">Create New Account</a>
+        </div>
+        <hr>
+    </div>
+</body>
+</html>
