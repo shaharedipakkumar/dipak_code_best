@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .container{
+        width: 100%;
+        border: 1px solid black;
+        height: 70px;
+        background-color: blue;
+        position: fixed;
+        top: 80px;
+       }
+       ul,a{
+                list-style-type: none;
+                text-decoration: none;
+                display: flex;
+                justify-content: space-evenly;
+                color: white;
+                font-size: 25px;
+       }
+       ul a:hover{
+        color: rgb(250, 185, 135);
+        text-decoration: underline red 3px;
+       }
+       body{
+        background-color: black;
+        color: white;
+       }
+       input[type=text],input[type=email],input[type=number]{
+        width: 400px;
+        height: 40px;
+        border-radius: 5px;
+        font-size: 20px;
+       }
+       label{
+        font-size: 20px;
+       }
+       #light{
+        border: 1px solid white;
+        width: 100%;
+        text-align: center;
+        position: fixed;
+        top: 0;
+        background-color: black;
+        animation: ani 2s infinite alternate-reverse;
+       }
+       @keyframes ani {
+        0%{
+            color: red;
+            text-shadow: 2px 2px 5px yellow;
+        }
+        25%{
+            color: blue;
+            text-shadow: 2px 2px 5px red;
+        }
+        50%{
+            color: deeppink;
+            text-shadow: 2px 2px 5px green;
+        }
+        75%{
+            color: aqua;
+            text-shadow: 2px 2px 5px purple;
+        }
+        100%{
+            color: darkviolet;
+            text-shadow: 2px 2px 5px green;
+        }
+       }
+    </style>
+</head>
+<body>
+    <div id="light">
+        <h1 style="font-size: 40px;">WELCOME TO NIT COLLEGE OF POLYTECHNIC</h1>
+    </div>
+    <div class="container">
+        
+        <ul>
+            <img style="border-radius: 20px; margin-left:-60px ;" width="50px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn7dXG7ptzx3ub89MndcTNkqsF1G50Non97A&s" alt="">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#gal">Image Gallary</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </div>
+    <div id="home" class="container1">
+        <img width="100%" src="https://nit.edu.in/wp-content/uploads/2023/12/EE-min-scaled.jpg" alt="">
+    </div>
+    <div id="about" class="container2" style="margin-left: 200px;">
+      <h1>About Us</h1>
+    <!-- <img width="300px" src="https://nit.edu.in/wp-content/uploads/2025/03/WhatsApp-Image-2025-03-27-at-3.39.01-PM-1.jpeg" alt=""> -->
+    <p style="font-size: 30px;font-style: italic;">Nagpur Institute of Technology (NIT Nagpur) is a private engineering college established in 2008. It is affiliated with Rashtrasant Tukadoji Maharaj Nagpur University and approved by AICTE and the Government of Maharashtra. The college is known for its focus on quality education, international exposure opportunities, and all-around student development. Nagpur Institute of Technology, better known as (NIT, Nagpur) is an engineering college in Nagpur that is affiliated to Rashtrasant Tukadoji Maharaj Nagpur University and approved by All India Council for Technical Education, New Delhi, Directorate of Technical Education, Maharashtra, Mumbai, NAAC, NBA.Establishment and Accreditation:
+Founded in 2008, NIT Nagpur is a self-financed institution affiliated with RTM Nagpur University and approved by AICTE and the Government of Maharashtra. 
+Focus Areas:
+The college emphasizes quality education, international exposure for undergraduate students, personality and skill development, and industrial training. 
+Infrastructure:
+The campus is spread across approximately 26 acres and features well-equipped classrooms, advanced laboratories, hostels, and a library. 
+Programs Offered:
+NIT Nagpur offers undergraduate (B.Tech) and postgraduate (MBA/PGDM) programs in Engineering and Business & Management Studies. 
+Notable Features:
+The college is recognized for its strong management, enthusiastic faculty, and emphasis on academic rigor and co-curricular activities. 
+Location:
+Located about 12 km from Nagpur Railway Station and 15 km from Dr. Babasaheb Ambedkar International Airport. </p>
+    </div>
+    <div id="gal" class="container4" style="margin-left: 200px;">
+        <h1>Image Gallary</h1>
+        <img style="border-radius: 5px;" width="300px" height="300px" src="https://nit.edu.in/wp-content/uploads/2023/12/IMG_8974-scaled.jpg" alt="">
+        <img style="border-radius: 5px;" width="300px" height="300px" src="https://nit.edu.in/wp-content/uploads/2023/12/IMG_20200218_133018-scaled.jpg" alt="">
+        <img style="border-radius: 5px;" width="300px" height="300px" src="https://nit.edu.in/wp-content/uploads/2023/12/ME-min-scaled.jpg" alt="">
+        <img style="border-radius: 5px;" width="300px" height="300px" src="https://image.free-apply.com/gallery/l/uni/gallery/lg/1035601683/7e74bd354ac150ac1e1dd8e52a6b40914c9e105f.jpg?s=640" alt="">
+        <img style="border-radius: 5px;" width="300px" height="300px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkHeMES_ey_Qe1-E487_V-JR0NhZsKtPGpHTxhIVtCj89YX1SsuGrlDTjcyIQ-NKP-WXA&usqp=CAU" alt="">
+        <img style="border-radius: 5px;" width="300px" height="300px" src="https://www.sbjit.edu.in/wp-content/uploads/2021/07/DSC_0773.jpg" alt="">
+        <img style="border-radius: 5px;" width="300px" height="300px" src="https://www.sbjit.edu.in/wp-content/uploads/2021/07/DSC9704a.jpg" alt="">
+        <img style="border-radius: 5px;" width="300px" height="300px" src="https://www.sbjit.edu.in/wp-content/uploads/2022/09/4H5A2573-min2-min.jpg" alt="">
+
+        
+    </div>
+    <div id="contact" class="box" style="margin-top: 50px;margin-left: 200px;">
+        <h1>Contact to me</h1>
+        <form style="width: 500px;height: 500px; margin-left: 500px;" action="">
+            <table style="width: 500px;margin-left: -300px;" >
+                <tr>
+                    <td>
+                        <label for="fname">First Name</label>
+                    </td>
+                    <td>
+                        <label for="lname">Last Name</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" name="" id="fname" placeholder="enter first name">
+                    </td>
+                    <td>
+                       <input type="text" name="" id="lname" placeholder="enter last name"> 
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">Email</label>
+                    </td>
+                    <td>
+                         <label for="number">Mobile Number</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="email" name="" id="email" placeholder="abc@gmail.com">
+                    </td>
+                    <td>
+                        <input type="number" name="" id="number"placeholder="enter your number">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="message">Enter Your Message</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <textarea style="border-radius: 5px;" name="message" id="" cols="110" rows="15"placeholder="Write something here...."></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input style="width: 200px;height: 50px;background-color: blue;border-radius: 5px;color: white;font-size: 20px;" type="button" value="Submit">
+                    </td>
+                
+                </tr>
+            </table>
+        </form>
+    </div>
+    <hr style="width: 1300px;" >
+    <div class="footer" style="text-align: center;">
+        <p>@copyright-2025-26 <br>developed by NIT college of Polytechnic Students(Trainer Dipakkumar Shahare)
+        <br>
+    <address>Address: Survey No. 13/2, Katol Road, Near Fetri, Mahurzari, Nagpur, Maharashtra 441501</address>
+    </p>
+    </div>
+</body>
+</html>
