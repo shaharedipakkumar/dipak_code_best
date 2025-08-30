@@ -1,0 +1,38 @@
+/* General Styling */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #0d1117;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+                url('hero-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+}
+
+/* Portfolio Cards */
+.portfolio-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.portfolio-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+/* Footer */
+footer {
+    background-color: #0d1117;
+}
+#home{
+    background-image: url("https://scontent.fnag6-2.fna.fbcdn.net/v/t39.30808-6/476224981_3727813677531955_3747941618748373367_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=RL74RgZVdooQ7kNvwHPQkaC&_nc_oc=AdmRh2ImQ0uj4SH68oW-KlvF35jpgXMUCQCu4C56jWzoQJKr_aJkATTv5mbubu8YW_rDnIgukK94tjO743d_I4VN&_nc_zt=23&_nc_ht=scontent.fnag6-2.fna&_nc_gid=Qf7U5MvRV06trvpiuGg5gw&oh=00_AfW0FinskwLMQUBo2NaEurGrPvyhg2leIKyY4BYua32GPg&oe=68B90EC2");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
